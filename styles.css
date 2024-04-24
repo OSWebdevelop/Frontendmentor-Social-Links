@@ -1,0 +1,24 @@
+:root{
+  --white-color:hsl(0, 0%, 100%);
+  --grey-color:hsl(0, 0%, 20%);
+  --dark-grey-color:hsl(0, 0%, 12%);
+  --off-black-color:hsl(0, 0%, 8%);
+}
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+*{
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  list-style: none;
+  text-decoration: none;
+}
+a{
+  color: inherit;
+}
+img{
+  max-width: 100%;
+}
